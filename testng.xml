@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrameworkSuite">
+  <test  name="Test">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="Com.Walmart.TestCases.TC_Logintest"/>
+   
+    </classes>
+  </test> 
+</suite> 
